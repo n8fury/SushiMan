@@ -1,3 +1,4 @@
+// import images as relative image path won't work with vite/vercel.
 import check from '../assets/check.svg';
 import star from '../assets/star.svg';
 import sushi10 from '../assets/sushi-10.png';
