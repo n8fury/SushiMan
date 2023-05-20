@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700;800&display=swap');
 
+/* reusable variables */
 :root {
 	--playfair-display: 'Playfair Display', serif;
 	--plus-jakarta-sans: 'Plus Jakarta Sans', sans-serif;
@@ -82,3 +83,15 @@ a {
 
 	margin: 32px 0px;
 }
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.sushi__hide-scrollbar::-webkit-scrollbar {
+	display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.sushi__hide-scrollbar {
+	-ms-overflow-style: none; /* IE and Edge */
+	scrollbar-width: none; /* Firefox */
+}
+    
